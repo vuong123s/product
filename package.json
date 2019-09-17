@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon --inspect index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,7 +11,17 @@
   "dependencies": {
     "express": "^4.17.1",
     "lowdb": "^1.0.0",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "pug": "^2.0.4"
   },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuong123s/product.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vuong123s/product/issues"
+  },
+  "homepage": "https://github.com/vuong123s/product#readme",
   "description": ""
 }
